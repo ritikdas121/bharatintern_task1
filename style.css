@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    font-family:'Comfortaa', cursive;
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #2E4F4F;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin-top: 200px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0);
+    border: 2px solid white;
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: large;
+    border-radius: 10px;
+
+    
+}
+input:focus
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    outline-offset: 0px;
+    outline: none;
+}
+
+.label{
+    margin:10px 0px;
+    color: white;
+}
+h2{
+    color: white;
+}
+label , .resultcontainer{
+    padding: 10px 0px;
+    color: white;
+}
+
+select{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.submit{
+    margin-top: 20px;
+    color: white;
+    background-color: #F73859;
+    font-family: 'Comforta' cursive;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor:pointer;
+}
+
+.submit:hover{
+    background-color: #d9213f;
+}
+
+#resultContainer{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: large;
+    color: greenyellow;
+}
+
+hr{
+    margin-top: 12px;
+}
